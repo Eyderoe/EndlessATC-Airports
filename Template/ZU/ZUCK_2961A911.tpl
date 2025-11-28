@@ -1,6 +1,8 @@
 # Eyderoe ZUCK 2506
 # 长五边
 
+clear,
+
 dep,*,-,OLNE2X OLNE6Y
 
 expand,app,*
@@ -11,9 +13,16 @@ star,03R,@,SEGD2H VINE1J IRPG1J KADV1J
 star,20R,@,IRPG6K KADV6K SEGD7L VINE6K
 star,21L,@,IRPG6K KADV6K SEGD7L VINE6K
 
-
-
 star,02R,@,SEGD2H VINE1J IRPG1J KADV1J
 star,03L,@,SEGD2H VINE1J IRPG1J KADV1J
 star,20L,@,IRPG6K KADV6K SEGD7L VINE6K
 star,21R,@,IRPG6K KADV6K SEGD7L VINE6K
+
+star,02R,-,*
+star,03L,-,*
+star,20L,-,*
+star,21R,-,*
+app,02R,-,*
+app,03L,-,*
+app,20L,-,*
+app,21R,-,*

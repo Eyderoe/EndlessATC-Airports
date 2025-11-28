@@ -3,6 +3,8 @@
 #--------------
 # 全局配置
 #--------------
+# 删除多余点
+clear,
 # 对程序的每一个点进行编码 不仅是起止
 expand,app,*
 expand,star,NIX1L NIX2L
@@ -12,7 +14,7 @@ expand,star,NIX1L NIX2L
 #--------------
 # 添加点 (名称/发音/纬度/经度)
 fix,PINAB/Pin Ab/30.57917 106.3
-# 离场程序 所有跑道 删除 PINA2Z PINA3Z
+# 离场程序 所有跑道 删除 PINA2Z PINA3Z (*表示所有)
 dep,*,-,PINA2Z PINA3Z
 # 进场程序 03跑道 添加 (识别/名称/航点名称)
 star,03,+,NIX1L/RW03.NIX1L/NIXAL PP403 PP515 PP511 PM508
